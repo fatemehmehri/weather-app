@@ -8,6 +8,7 @@ const cities = [
   "sabzevar",
 ];
 
+
 document.addEventListener("DOMContentLoaded", function (event) {
   cities.forEach(getWeather);
 });
